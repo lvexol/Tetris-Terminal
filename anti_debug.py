@@ -2,6 +2,7 @@ import sys
 import os
 import platform
 import traceback
+import time
 
 class AntiDebugger:
     def __init__(self):
