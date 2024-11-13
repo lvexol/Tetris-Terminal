@@ -1,5 +1,3 @@
-Here's an updated version of the `README.md` that places emphasis on the kernel-level security and anti-cheat features, breaking them down in the Table of Contents and providing detailed explanations for each component.
-
 ---
 
 # Tetris Game with Kernel-Level Security and Anti-Cheat Measures
