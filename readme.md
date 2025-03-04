@@ -8,6 +8,7 @@ This project is a classic Tetris game enhanced with advanced security features l
 
 ## Table of Contents
 - [Introduction](#introduction)
+- [Introducing what is anticheet]{#What-is-anticheet}
 - [Features](#features)
 - [Gameplay](#gameplay)
 - [Installation](#installation)
@@ -26,6 +27,27 @@ This project is a classic Tetris game enhanced with advanced security features l
 
 ## Introduction
 This Tetris game includes unique security features that make it resistant to common memory-based cheats or hacks. Using kernel-level protection, the game monitors its memory integrity and actively protects sensitive data from tampering. It also utilizes hash-based integrity checks to detect unauthorized modifications.
+
+---
+## What is anticheet
+To understand this easily I preffer watching this video - 
+[Kernel level anticheet]{https://www.youtube.com/watch?v=kzVYgg9nQis&ab_channel=Ryscu}
+### Summary of the video 
+The evolution of video game cheats has led to increasingly sophisticated anti-cheat systems, with kernel-level anti-cheat becoming the industry standard. These anti-cheat programs operate at the highest privilege level of a computer (Ring 0), allowing them full access to system memory to detect and block unauthorized modifications. However, this deep integration presents serious security risks, as seen in the 2022 case of **mhyprot2.sys**, the anti-cheat driver for *Genshin Impact*, which was exploited to disable antivirus protections and deploy ransomware.  
+
+Cheaters bypass anti-cheat systems using various methods:  
+- **Memory manipulation:** Editing client-side memory to alter variables like health or score.  
+- **DLL injection:** Modifying game files by injecting custom code.  
+- **Kernel exploits:** Creating or abusing drivers to gain privileged access.  
+
+Because kernel-level drivers require **Microsoft's digital signing**, hackers also exploit **legitimate signed drivers** to gain unauthorized system access. Even if a vulnerable driver is patched, old versions remain exploitable, highlighting a critical flaw in system security.  
+
+### **Key Takeaways:**  
+1. **Kernel-level anti-cheat systems are powerful but risky.** They act like rootkits, giving game developers deep access to a user’s system.  
+2. **Anti-cheat vulnerabilities can become cybersecurity threats.** Hackers exploited *mhyprot2.sys* to disable security software and deploy ransomware.  
+3. **Bypassing kernel anti-cheat often involves exploiting existing vulnerabilities.** Attackers abuse legitimate signed drivers to execute unsigned code.  
+4. **Microsoft’s driver signing process is a double-edged sword.** While it ensures security, compromised drivers remain a persistent threat.  
+5. **Older, unpatched systems remain vulnerable.** Even years after a security flaw is exposed, outdated versions can still be weaponized.
 
 ---
 
