@@ -8,7 +8,7 @@ This project is a classic Tetris game enhanced with advanced security features l
 
 ## Table of Contents
 - [Introduction](#introduction)
-- [Introducing what is anticheet](#What-is-anticheet)
+- [Introducing what is anticheat](#What-is-anticheet)
 - [Features](#features)
 - [Gameplay](#gameplay)
 - [Installation](#installation)
@@ -29,9 +29,9 @@ This project is a classic Tetris game enhanced with advanced security features l
 This Tetris game includes unique security features that make it resistant to common memory-based cheats or hacks. Using kernel-level protection, the game monitors its memory integrity and actively protects sensitive data from tampering. It also utilizes hash-based integrity checks to detect unauthorized modifications.
 
 ---
-## What is anticheet
+## What is Anti-Cheat
 To understand this easily I preffer watching this video - 
-[Kernel level anticheet](https://www.youtube.com/watch?v=kzVYgg9nQis&ab_channel=Ryscu)
+[Kernel level Anti-Cheat](https://www.youtube.com/watch?v=kzVYgg9nQis&ab_channel=Ryscu)
 ### Summary of the video 
 The evolution of video game cheats has led to increasingly sophisticated anti-cheat systems, with kernel-level anti-cheat becoming the industry standard. These anti-cheat programs operate at the highest privilege level of a computer (Ring 0), allowing them full access to system memory to detect and block unauthorized modifications. However, this deep integration presents serious security risks, as seen in the 2022 case of **mhyprot2.sys**, the anti-cheat driver for *Genshin Impact*, which was exploited to disable antivirus protections and deploy ransomware.  
 
